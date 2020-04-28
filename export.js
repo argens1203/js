@@ -61,6 +61,6 @@ export function toFormalCase (str){
 }
 
 export function parameterize (str){
-    const arr = str.toString().trim.split (' ');
+    const arr = str.toString().trim().split (' ');
     return arr.map (s => s.toUpperCase()).join ('_');
 }
