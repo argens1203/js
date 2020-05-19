@@ -64,3 +64,7 @@ export function parameterize (str){
     const arr = str.toString().trim().split (' ');
     return arr.map (s => s.toUpperCase()).join ('_');
 }
+
+export function isEmpty (obj){
+    return Object.keys(obj).length === 0;
+}
