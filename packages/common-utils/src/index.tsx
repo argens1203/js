@@ -10,3 +10,5 @@ export const ExampleComponent = ({ text }: Props) => {
 }
 
 export const getString = (s: string) => `string: ${s}`;
+
+export * from './promise.util';
