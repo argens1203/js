@@ -6,13 +6,14 @@ import {
 } from "@reduxjs/toolkit";
 import logger from "redux-logger";
 
-import { ENTITY_SLICE_NAME } from "../entity-slice/constants";
-import { entityReducer } from "../entity-slice";
-import { RELATIONSHIP_SLICE_NAME } from "../relationship-slice/constants";
-import { relationshipReducer } from "../relationship-slice";
+import { ENTITY_SLICE_NAME, entityReducer } from "node-entity";
+import {
+  RELATIONSHIP_SLICE_NAME,
+  relationshipReducer,
+} from "node-relationship";
 import { serializer } from "./serializer";
 
-export const reducer = combineReducers({
+const reducer = combineReducers({
   [ENTITY_SLICE_NAME]: entityReducer,
   [RELATIONSHIP_SLICE_NAME]: relationshipReducer,
 });
@@ -21,9 +22,8 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) => {
     return getDefaultMiddleware({
       serializableCheck: false,
-    })
-      .concat(serializer)
-      .concat(logger);
+    }).concat(serializer);
+    // .concat(logger);
   },
 });
 

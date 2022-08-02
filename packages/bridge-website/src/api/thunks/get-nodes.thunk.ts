@@ -1,4 +1,4 @@
-import { NodeFactory } from "../../node-factory/node-factory";
+import { NodeFactory } from "node-factory";
 import { AppThunkDispatch } from "../../store/thunk.type";
 import { getNodes as api, INode } from "../get-nodes/service";
 
