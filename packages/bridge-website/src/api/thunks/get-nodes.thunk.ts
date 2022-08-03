@@ -1,5 +1,5 @@
 import { NodeFactory } from "node-factory";
-import { AppThunkDispatch } from "../../store/thunk.type";
+import { AppThunkDispatch } from "store";
 import { getNodes as api, INode } from "../get-nodes/service";
 
 export function getNodes() {

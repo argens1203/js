@@ -1,5 +1,5 @@
 import { useAppSelector } from "../store/hooks";
-import { RootState } from "../store/store";
+import { RootState } from "store";
 import { Component } from "./component";
 
 type Props = {

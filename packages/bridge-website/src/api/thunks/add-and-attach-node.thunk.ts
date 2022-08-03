@@ -1,5 +1,5 @@
 import { DataType, NodeType } from "model";
-import { AppThunkDispatch } from "../../store/thunk.type";
+import { AppThunkDispatch } from "store";
 import { createNode } from "../create-node.service";
 
 type Input = {
