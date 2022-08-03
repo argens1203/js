@@ -12,11 +12,6 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "class-transformer": "^0.5.1",
-    "common-utils": "latest",
-    "model": "latest",
-    "node-entity": "latest",
-    "node-factory": "*",
-    "node-relationship": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
@@ -24,8 +19,13 @@
     "redux": "^4.2.0",
     "short-uuid": "^4.2.0",
     "typescript": "^4.7.4",
-    "ui-components": "latest",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "common-utils": "*",
+    "model": "*",
+    "node-entity": "*",
+    "node-factory": "*",
+    "node-relationship": "*",
+    "ui-components": "*"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,6 +1,6 @@
 import { ComponentFromRef } from "./component-from-ref";
 import { ComponentProps } from "./component-props.type";
-import { useGetChildrenRef } from "./use-get-children-ref.hook";
+import { useGetChildrenRef } from "../hooks/use-get-children-ref.hook";
 
 export function Body(props: ComponentProps) {
   const { node } = props;
