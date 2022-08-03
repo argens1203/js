@@ -1,4 +1,4 @@
-import { useAppSelector } from "../store/hooks";
+import { useAppSelector } from "store";
 import { RootState } from "store";
 import { Component } from "./component";
 

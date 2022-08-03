@@ -1,4 +1,4 @@
-import { useAppSelector } from "../store/hooks";
+import { useAppSelector } from "store";
 
 export function useGetChildrenRef(ref: string) {
   const childrenObj = useAppSelector(
