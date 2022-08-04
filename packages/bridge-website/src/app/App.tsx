@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { getNodes } from "../api/thunks/get-nodes.thunk";
 import { useAppDispatch, useAppSelector } from "store";
-import { ComponentFromRef } from "../components/component-from-ref";
+import { ComponentFromRef } from "node-components";
 import {
   addAndAttachImage,
   addAndAttachNodeThunk,

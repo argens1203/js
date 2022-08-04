@@ -8,3 +8,7 @@ interface Props {
 export const ExampleComponent = ({ text }: Props) => {
   return <div className={styles.test}>Example Component: {text}</div>
 }
+
+export function TestComponent() {
+  return <React.Fragment>Hello</React.Fragment>
+}
