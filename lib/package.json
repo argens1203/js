@@ -1,0 +1,20 @@
+{
+  "name": "@argens1203/library-code",
+  "version": "1.0.9",
+  "description": "",
+  "main": "export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argens1203/library-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/argens1203/library-code/issues"
+  },
+  "homepage": "https://github.com/argens1203/library-code#readme",
+  "dependencies": {}
+}
